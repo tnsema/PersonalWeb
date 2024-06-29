@@ -434,6 +434,18 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    transform: translateX(-50%);
    margin-left: 0;
 }
+.MoreDetailedSkills{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.MoreDetailedSkillsBtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
 
 /*-------------------------------------
         7. Experience
