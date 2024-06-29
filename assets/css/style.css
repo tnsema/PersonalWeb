@@ -58,8 +58,8 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	color:#43485c;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+	font-family: '--bs-font-sans-serif','Poppins', sans-serif;
+	
 }
 p {
 	margin: 0;
@@ -207,10 +207,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #282b46;}
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
+    color: rgb(211, 206, 206);
     font-size: 54px;
-    font-weight: 700;
-    text-transform: uppercase;
+    
+    
     line-height: 1.5;
 }
 .header-text h2 span {color: #ffffff;}
