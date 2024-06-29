@@ -244,7 +244,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #282b46;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {padding: 50px 0 100px; background-color: #eeecff;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -370,7 +370,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .skills {
-    
+    background-color: #072327;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -384,9 +384,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-progress-txt {
     display: flex;
 }
+.progressText{
+    color: #ffffff;
+}
 .single-progress-txt h3 {
     width: 10%;
-    color: #282b46;
+    color: #fff;
     position: relative;
     top: 6px;
     left: 20px;
@@ -534,6 +537,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background-color: #eeecff;
 }
 
 .profiles-content {padding-top: 100px;}
@@ -609,6 +613,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .portfolio {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background-color: #072327;
+    color: #ffffff;
 }
 
 .portfolio-content {padding-top: 100px;}
@@ -647,7 +653,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(31,44,108,.5);
+    background:rgb(7, 35, 39, .5);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -664,6 +670,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition: .5s;
     transition: .5s;
 }
+
+#project{
+    color: #e9e9e9;
+}
+
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
